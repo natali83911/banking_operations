@@ -1,9 +1,9 @@
 import json
-from typing import Any, Dict
+
 from config import PATH_TO_EXCEL, PATH_TO_JSON
 
 from .utils import (get_card_with_spend, get_currency, get_data_time, get_path_and_period, get_stock,
-                   get_time_for_greeting, get_top_transactions)
+                    get_time_for_greeting, get_top_transactions)
 
 
 def main_info(date_time: str) -> str:
@@ -41,4 +41,3 @@ def main_info(date_time: str) -> str:
     json_data = json.dumps(data, ensure_ascii=False, indent=4)
 
     return json_data
-

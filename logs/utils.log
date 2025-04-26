@@ -1,0 +1,111 @@
+2025-04-27 00:26:12 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2021-12-15 15:30:00, date_format=%Y-%m-%d %H:%M:%S
+2025-04-27 00:26:12 - src.utils - DEBUG - utils.py - get_data_time - Результат форматирования: ['01.12.2021 00:00:00', '15.12.2021 15:30:00']
+2025-04-27 00:26:12 - src.utils - DEBUG - utils.py - get_path_and_period - Вызвана функция get_path_and_period с параметрами: path_to_file=C:\Users\User\banking_operations\data\operations.xlsx, period_date=['01.12.2021 00:00:00', '15.12.2021 15:30:00']
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_path_and_period - Количество строк после фильтрации: 71
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_path_and_period - Таблица успешно отфильтрована и отсортирована
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброй ночи
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Вызвана функция get_card_with_spend
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Отобраны необходимые столбцы из DataFrame
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 1 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 2 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 3 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 4 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 5 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 6 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 7 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 8 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 9 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 10 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 11 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 12 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 13 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 14 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 15 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 16 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 17 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 18 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 19 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 20 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 21 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 22 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 23 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 24 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 25 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 26 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 27 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 28 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 29 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 30 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 31 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 32 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 33 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 34 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 35 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 36 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 37 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 38 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 39 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 40 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 41 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 42 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 43 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 44 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 45 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 46 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 47 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 48 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 49 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 50 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 51 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 52 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 53 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 54 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 55 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 56 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 57 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 58 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 59 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 60 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 61 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 62 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 63 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 64 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 65 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 66 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 67 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 68 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=5
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Выбрано топ-5 транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 1 топ-транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 2 топ-транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 3 топ-транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 4 топ-транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 5 топ-транзакций
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=C:\Users\User\banking_operations\user_settings.json
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_currency - Файл C:\Users\User\banking_operations\user_settings.json успешно прочитан
+2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_currency - Обработка валюты: USD
+2025-04-27 00:26:15 - src.utils - DEBUG - utils.py - get_currency - Результат запроса API: {'success': True, 'query': {'from': 'USD', 'to': 'RUB', 'amount': 1}, 'info': {'timestamp': 1745702775, 'rate': 82.267233}, 'date': '2025-04-26', 'result': 82.267233}
+2025-04-27 00:26:15 - src.utils - DEBUG - utils.py - get_currency - Курс валюты USD: 82.27
+2025-04-27 00:26:15 - src.utils - DEBUG - utils.py - get_currency - Обработка валюты: EUR
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_currency - Результат запроса API: {'success': True, 'query': {'from': 'EUR', 'to': 'RUB', 'amount': 1}, 'info': {'timestamp': 1745702775, 'rate': 93.730032}, 'date': '2025-04-26', 'result': 93.730032}
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_currency - Курс валюты EUR: 93.73
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_currency - Возвращаемые курсы валют: [{'currency': 'USD', 'rate': 82.27}, {'currency': 'EUR', 'rate': 93.73}]
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Вызвана функция get_stock с параметром: path_to_json=C:\Users\User\banking_operations\user_settings.json
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Файл C:\Users\User\banking_operations\user_settings.json успешно прочитан
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: AAPL
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '209.28000'}
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Цена акции AAPL: 209.28000
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: AMZN
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '188.99001'}
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Цена акции AMZN: 188.99001
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: GOOGL
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '161.96001'}
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Цена акции GOOGL: 161.96001
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: MSFT
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '391.85001'}
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Цена акции MSFT: 391.85001
+2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: TSLA
+2025-04-27 00:26:17 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '284.95001'}
+2025-04-27 00:26:17 - src.utils - DEBUG - utils.py - get_stock - Цена акции TSLA: 284.95001
+2025-04-27 00:26:17 - src.utils - DEBUG - utils.py - get_stock - Возвращаемые данные об акциях: [{'stock': 'AAPL', 'price': 209.28}, {'stock': 'AMZN', 'price': 188.99001}, {'stock': 'GOOGL', 'price': 161.96001}, {'stock': 'MSFT', 'price': 391.85001}, {'stock': 'TSLA', 'price': 284.95001}]

@@ -1,0 +1,110 @@
+2025-04-29 00:05:37 - src.reports - DEBUG - reports.py - wrapper - Вызов функции tested_func с args=(        Дата операции  Категория  Сумма платежа
+0 2025-02-01 10:00:00   Продукты          -1000
+1 2025-03-15 12:00:00   Продукты           -500
+2 2025-04-20 15:00:00  Транспорт           -300
+3 2025-01-10 10:00:00   Продукты          -2000, 'Продукты', '2025-04-28') kwargs={}
+2025-04-29 00:05:37 - src.reports - DEBUG - reports.py - expenses_by_category - Начало обработки расходов по категории 'Продукты' с датой '2025-04-28'
+2025-04-29 00:05:37 - src.reports - DEBUG - reports.py - expenses_by_category - Дата преобразована: 2025-04-28 00:00:00
+2025-04-29 00:05:37 - src.reports - DEBUG - reports.py - expenses_by_category - Найдено 2 записей по категории 'Продукты' за последние 3 месяца
+2025-04-29 00:05:37 - src.reports - DEBUG - reports.py - wrapper - Результат функции tested_func успешно сохранён в файл 'C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-30\test_expenses_by_category_coun0\test_report.txt'
+2025-04-29 00:05:38 - src.reports - DEBUG - reports.py - wrapper - Вызов функции tested_func с args=(        Дата операции  Категория  Сумма платежа
+0 2025-02-01 10:00:00   Продукты          -1000
+1 2025-03-15 12:00:00   Продукты           -500
+2 2025-04-20 15:00:00  Транспорт           -300
+3 2025-01-10 10:00:00   Продукты          -2000, 'Транспорт', '2025-04-28') kwargs={}
+2025-04-29 00:05:38 - src.reports - DEBUG - reports.py - expenses_by_category - Начало обработки расходов по категории 'Транспорт' с датой '2025-04-28'
+2025-04-29 00:05:38 - src.reports - DEBUG - reports.py - expenses_by_category - Дата преобразована: 2025-04-28 00:00:00
+2025-04-29 00:05:38 - src.reports - DEBUG - reports.py - expenses_by_category - Найдено 1 записей по категории 'Транспорт' за последние 3 месяца
+2025-04-29 00:05:38 - src.reports - DEBUG - reports.py - wrapper - Результат функции tested_func успешно сохранён в файл 'C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-30\test_expenses_by_category_coun1\test_report.txt'
+2025-04-29 00:05:39 - src.reports - DEBUG - reports.py - wrapper - Вызов функции tested_func с args=(        Дата операции  Категория  Сумма платежа
+0 2025-02-01 10:00:00   Продукты          -1000
+1 2025-03-15 12:00:00   Продукты           -500
+2 2025-04-20 15:00:00  Транспорт           -300
+3 2025-01-10 10:00:00   Продукты          -2000, 'Продукты', None) kwargs={}
+2025-04-29 00:05:39 - src.reports - DEBUG - reports.py - expenses_by_category - Начало обработки расходов по категории 'Продукты' с датой 'None'
+2025-04-29 00:05:39 - src.reports - DEBUG - reports.py - expenses_by_category - Дата не указана, используется текущая дата: 2025-04-29 00:05:39.717326
+2025-04-29 00:05:39 - src.reports - DEBUG - reports.py - expenses_by_category - Найдено 2 записей по категории 'Продукты' за последние 3 месяца
+2025-04-29 00:05:39 - src.reports - DEBUG - reports.py - wrapper - Результат функции tested_func успешно сохранён в файл 'C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-30\test_expenses_by_category_coun2\test_report.txt'
+2025-04-29 00:05:40 - src.reports - DEBUG - reports.py - wrapper - Вызов функции tested_func с args=(        Дата операции  Категория  Сумма платежа
+0 2025-02-01 10:00:00   Продукты          -1000
+1 2025-03-15 12:00:00   Продукты           -500
+2 2025-04-20 15:00:00  Транспорт           -300
+3 2025-01-10 10:00:00   Продукты          -2000, 'Неизвестная', '2025-04-28') kwargs={}
+2025-04-29 00:05:40 - src.reports - DEBUG - reports.py - expenses_by_category - Начало обработки расходов по категории 'Неизвестная' с датой '2025-04-28'
+2025-04-29 00:05:40 - src.reports - DEBUG - reports.py - expenses_by_category - Дата преобразована: 2025-04-28 00:00:00
+2025-04-29 00:05:40 - src.reports - DEBUG - reports.py - expenses_by_category - Найдено 0 записей по категории 'Неизвестная' за последние 3 месяца
+2025-04-29 00:05:40 - src.reports - DEBUG - reports.py - wrapper - Результат функции tested_func успешно сохранён в файл 'C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-30\test_expenses_by_category_coun3\test_report.txt'
+2025-04-29 00:05:40 - src.reports - DEBUG - reports.py - wrapper - Вызов функции expenses_by_category с args=(        Дата операции  Категория  Сумма платежа
+0 2025-02-01 10:00:00   Продукты          -1000
+1 2025-03-15 12:00:00   Продукты           -500
+2 2025-04-20 15:00:00  Транспорт           -300
+3 2025-01-10 10:00:00   Продукты          -2000, 'Продукты', 'неправильная_дата') kwargs={}
+2025-04-29 00:05:40 - src.reports - DEBUG - reports.py - expenses_by_category - Начало обработки расходов по категории 'Продукты' с датой 'неправильная_дата'
+2025-04-29 00:05:40 - src.reports - ERROR - reports.py - expenses_by_category - Неверный формат даты: неправильная_дата
+Traceback (most recent call last):
+  File "C:\Users\User\banking_operations\src\reports.py", line 86, in expenses_by_category
+    current_date = pd.to_datetime(date)
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\banking_operations\.venv\Lib\site-packages\pandas\core\tools\datetimes.py", line 1101, in to_datetime
+    result = convert_listlike(np.array([arg]), format)[0]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\banking_operations\.venv\Lib\site-packages\pandas\core\tools\datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\banking_operations\.venv\Lib\site-packages\pandas\core\arrays\datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: неправильная_дата, at position 0
+2025-04-29 00:05:40 - src.reports - ERROR - reports.py - wrapper - Ошибка при выполнении функции expenses_by_category или записи в файл: Неверный формат даты: неправильная_дата
+Traceback (most recent call last):
+  File "C:\Users\User\banking_operations\src\reports.py", line 86, in expenses_by_category
+    current_date = pd.to_datetime(date)
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\banking_operations\.venv\Lib\site-packages\pandas\core\tools\datetimes.py", line 1101, in to_datetime
+    result = convert_listlike(np.array([arg]), format)[0]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\banking_operations\.venv\Lib\site-packages\pandas\core\tools\datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\banking_operations\.venv\Lib\site-packages\pandas\core\arrays\datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: неправильная_дата, at position 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\banking_operations\src\reports.py", line 48, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\banking_operations\src\reports.py", line 90, in expenses_by_category
+    raise ValueError(f"Неверный формат даты: {date}") from e
+ValueError: Неверный формат даты: неправильная_дата
+2025-04-29 00:05:40 - src.reports - DEBUG - reports.py - get_data_from_file - Чтение Excel-файла: fake.xlsx
+2025-04-29 00:05:41 - src.reports - DEBUG - reports.py - wrapper - Вызов функции func с args=(        Дата операции  Категория  Сумма платежа
+0 2025-02-01 10:00:00   Продукты          -1000
+1 2025-03-15 12:00:00   Продукты           -500
+2 2025-04-20 15:00:00  Транспорт           -300
+3 2025-01-10 10:00:00   Продукты          -2000,) kwargs={}
+2025-04-29 00:05:41 - src.reports - DEBUG - reports.py - wrapper - Результат функции func успешно сохранён в файл 'C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-30\test_save_result_to_txt_writes0\out.txt'
+2025-04-29 00:05:42 - src.reports - DEBUG - reports.py - wrapper - Вызов функции tested_func с args=(        Дата операции  Категория  Сумма платежа
+0 2025-02-01 10:00:00   Продукты          -1000
+1 2025-03-15 12:00:00   Продукты           -500
+2 2025-04-20 15:00:00  Транспорт           -300
+3 2025-01-10 10:00:00   Продукты          -2000, 'Продукты', '2025-04-28') kwargs={}
+2025-04-29 00:05:42 - src.reports - DEBUG - reports.py - expenses_by_category - Начало обработки расходов по категории 'Продукты' с датой '2025-04-28'
+2025-04-29 00:05:42 - src.reports - DEBUG - reports.py - expenses_by_category - Дата преобразована: 2025-04-28 00:00:00
+2025-04-29 00:05:42 - src.reports - DEBUG - reports.py - expenses_by_category - Найдено 2 записей по категории 'Продукты' за последние 3 месяца
+2025-04-29 00:05:42 - src.reports - DEBUG - reports.py - wrapper - Результат функции tested_func успешно сохранён в файл 'C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-30\test_expenses_by_category_logg0\log_test.txt'

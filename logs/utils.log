@@ -1,140 +1,29 @@
-2025-04-27 00:26:12 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2021-12-15 15:30:00, date_format=%Y-%m-%d %H:%M:%S
-2025-04-27 00:26:12 - src.utils - DEBUG - utils.py - get_data_time - Результат форматирования: ['01.12.2021 00:00:00', '15.12.2021 15:30:00']
-2025-04-27 00:26:12 - src.utils - DEBUG - utils.py - get_path_and_period - Вызвана функция get_path_and_period с параметрами: path_to_file=C:\Users\User\banking_operations\data\operations.xlsx, period_date=['01.12.2021 00:00:00', '15.12.2021 15:30:00']
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_path_and_period - Количество строк после фильтрации: 71
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_path_and_period - Таблица успешно отфильтрована и отсортирована
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброй ночи
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Вызвана функция get_card_with_spend
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Отобраны необходимые столбцы из DataFrame
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 1 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 2 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 3 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 4 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 5 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 6 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 7 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 8 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 9 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 10 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 11 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 12 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 13 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 14 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 15 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 16 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 17 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 18 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 19 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 20 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 21 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 22 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 23 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 24 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 25 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 26 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 27 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 28 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 29 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 30 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 31 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 32 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 33 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 34 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 35 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 36 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 37 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 38 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 39 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 40 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 41 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 42 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 43 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 44 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 45 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 46 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 47 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 48 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 49 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 50 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 51 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 52 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 53 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 54 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 55 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 56 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 57 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 58 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 59 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 60 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 61 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 62 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 63 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 64 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 65 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 66 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 67 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 68 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=5
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Выбрано топ-5 транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 1 топ-транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 2 топ-транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 3 топ-транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 4 топ-транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 5 топ-транзакций
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=C:\Users\User\banking_operations\user_settings.json
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_currency - Файл C:\Users\User\banking_operations\user_settings.json успешно прочитан
-2025-04-27 00:26:13 - src.utils - DEBUG - utils.py - get_currency - Обработка валюты: USD
-2025-04-27 00:26:15 - src.utils - DEBUG - utils.py - get_currency - Результат запроса API: {'success': True, 'query': {'from': 'USD', 'to': 'RUB', 'amount': 1}, 'info': {'timestamp': 1745702775, 'rate': 82.267233}, 'date': '2025-04-26', 'result': 82.267233}
-2025-04-27 00:26:15 - src.utils - DEBUG - utils.py - get_currency - Курс валюты USD: 82.27
-2025-04-27 00:26:15 - src.utils - DEBUG - utils.py - get_currency - Обработка валюты: EUR
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_currency - Результат запроса API: {'success': True, 'query': {'from': 'EUR', 'to': 'RUB', 'amount': 1}, 'info': {'timestamp': 1745702775, 'rate': 93.730032}, 'date': '2025-04-26', 'result': 93.730032}
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_currency - Курс валюты EUR: 93.73
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_currency - Возвращаемые курсы валют: [{'currency': 'USD', 'rate': 82.27}, {'currency': 'EUR', 'rate': 93.73}]
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Вызвана функция get_stock с параметром: path_to_json=C:\Users\User\banking_operations\user_settings.json
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Файл C:\Users\User\banking_operations\user_settings.json успешно прочитан
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: AAPL
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '209.28000'}
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Цена акции AAPL: 209.28000
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: AMZN
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '188.99001'}
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Цена акции AMZN: 188.99001
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: GOOGL
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '161.96001'}
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Цена акции GOOGL: 161.96001
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: MSFT
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '391.85001'}
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Цена акции MSFT: 391.85001
-2025-04-27 00:26:16 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: TSLA
-2025-04-27 00:26:17 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '284.95001'}
-2025-04-27 00:26:17 - src.utils - DEBUG - utils.py - get_stock - Цена акции TSLA: 284.95001
-2025-04-27 00:26:17 - src.utils - DEBUG - utils.py - get_stock - Возвращаемые данные об акциях: [{'stock': 'AAPL', 'price': 209.28}, {'stock': 'AMZN', 'price': 188.99001}, {'stock': 'GOOGL', 'price': 161.96001}, {'stock': 'MSFT', 'price': 391.85001}, {'stock': 'TSLA', 'price': 284.95001}]
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброе утро
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброе утро
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Добрый день
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Добрый день
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Добрый вечер
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Добрый вечер
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброй ночи
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброй ночи
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброй ночи
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2024-12-31 23:59:59, date_format=%Y-%m-%d %H:%M:%S
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_data_time - Результат форматирования: ['01.12.2024 00:00:00', '31.12.2024 23:59:59']
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2024-02-29 12:00:00, date_format=%Y-%m-%d %H:%M:%S
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_data_time - Результат форматирования: ['01.02.2024 00:00:00', '29.02.2024 12:00:00']
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2023-01-01 00:00:00, date_format=%Y-%m-%d %H:%M:%S
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_data_time - Результат форматирования: ['01.01.2023 00:00:00', '01.01.2023 00:00:00']
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=31-12-2024 23:59:59, date_format=%Y-%m-%d %H:%M:%S
-2025-04-27 00:31:55 - src.utils - ERROR - utils.py - get_data_time - Ошибка форматирования даты: time data '31-12-2024 23:59:59' does not match format '%Y-%m-%d %H:%M:%S'
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброе утро
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброе утро
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Добрый день
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Добрый день
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Добрый вечер
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Добрый вечер
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброй ночи
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброй ночи
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Вызвана функция get_time_for_greeting
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_time_for_greeting - Возвращено: Доброй ночи
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2024-12-31 23:59:59, date_format=%Y-%m-%d %H:%M:%S
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_data_time - Результат форматирования: ['01.12.2024 00:00:00', '31.12.2024 23:59:59']
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2024-02-29 12:00:00, date_format=%Y-%m-%d %H:%M:%S
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_data_time - Результат форматирования: ['01.02.2024 00:00:00', '29.02.2024 12:00:00']
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2023-01-01 00:00:00, date_format=%Y-%m-%d %H:%M:%S
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_data_time - Результат форматирования: ['01.01.2023 00:00:00', '01.01.2023 00:00:00']
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=31-12-2024 23:59:59, date_format=%Y-%m-%d %H:%M:%S
+2025-04-28 16:24:10 - src.utils - ERROR - utils.py - get_data_time - Ошибка форматирования даты: time data '31-12-2024 23:59:59' does not match format '%Y-%m-%d %H:%M:%S'
 Traceback (most recent call last):
   File "C:\Users\User\banking_operations\src\utils.py", line 69, in get_data_time
     dt = dt_class.strptime(date_time, date_format)
@@ -145,8 +34,8 @@ Traceback (most recent call last):
   File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 333, in _strptime
     raise ValueError("time data %r does not match format %r" %
 ValueError: time data '31-12-2024 23:59:59' does not match format '%Y-%m-%d %H:%M:%S'
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2024-13-01 00:00:00, date_format=%Y-%m-%d %H:%M:%S
-2025-04-27 00:31:55 - src.utils - ERROR - utils.py - get_data_time - Ошибка форматирования даты: time data '2024-13-01 00:00:00' does not match format '%Y-%m-%d %H:%M:%S'
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2024-13-01 00:00:00, date_format=%Y-%m-%d %H:%M:%S
+2025-04-28 16:24:10 - src.utils - ERROR - utils.py - get_data_time - Ошибка форматирования даты: time data '2024-13-01 00:00:00' does not match format '%Y-%m-%d %H:%M:%S'
 Traceback (most recent call last):
   File "C:\Users\User\banking_operations\src\utils.py", line 69, in get_data_time
     dt = dt_class.strptime(date_time, date_format)
@@ -157,8 +46,8 @@ Traceback (most recent call last):
   File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 333, in _strptime
     raise ValueError("time data %r does not match format %r" %
 ValueError: time data '2024-13-01 00:00:00' does not match format '%Y-%m-%d %H:%M:%S'
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2024-02-30 12:00:00, date_format=%Y-%m-%d %H:%M:%S
-2025-04-27 00:31:55 - src.utils - ERROR - utils.py - get_data_time - Ошибка форматирования даты: day is out of range for month
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=2024-02-30 12:00:00, date_format=%Y-%m-%d %H:%M:%S
+2025-04-28 16:24:10 - src.utils - ERROR - utils.py - get_data_time - Ошибка форматирования даты: day is out of range for month
 Traceback (most recent call last):
   File "C:\Users\User\banking_operations\src\utils.py", line 69, in get_data_time
     dt = dt_class.strptime(date_time, date_format)
@@ -170,8 +59,8 @@ Traceback (most recent call last):
     julian = datetime_date(year, month, day).toordinal() - \
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ValueError: day is out of range for month
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=, date_format=%Y-%m-%d %H:%M:%S
-2025-04-27 00:31:55 - src.utils - ERROR - utils.py - get_data_time - Ошибка форматирования даты: time data '' does not match format '%Y-%m-%d %H:%M:%S'
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=, date_format=%Y-%m-%d %H:%M:%S
+2025-04-28 16:24:10 - src.utils - ERROR - utils.py - get_data_time - Ошибка форматирования даты: time data '' does not match format '%Y-%m-%d %H:%M:%S'
 Traceback (most recent call last):
   File "C:\Users\User\banking_operations\src\utils.py", line 69, in get_data_time
     dt = dt_class.strptime(date_time, date_format)
@@ -182,93 +71,93 @@ Traceback (most recent call last):
   File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 333, in _strptime
     raise ValueError("time data %r does not match format %r" %
 ValueError: time data '' does not match format '%Y-%m-%d %H:%M:%S'
-2025-04-27 00:31:55 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=None, date_format=%Y-%m-%d %H:%M:%S
-2025-04-27 00:31:55 - src.utils - ERROR - utils.py - get_data_time - Ошибка форматирования даты: strptime() argument 1 must be str, not None
+2025-04-28 16:24:10 - src.utils - DEBUG - utils.py - get_data_time - Вызвана функция get_data_time с параметрами: date_time=None, date_format=%Y-%m-%d %H:%M:%S
+2025-04-28 16:24:10 - src.utils - ERROR - utils.py - get_data_time - Ошибка форматирования даты: strptime() argument 1 must be str, not None
 Traceback (most recent call last):
   File "C:\Users\User\banking_operations\src\utils.py", line 69, in get_data_time
     dt = dt_class.strptime(date_time, date_format)
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: strptime() argument 1 must be str, not None
-2025-04-27 00:32:04 - src.utils - DEBUG - utils.py - get_path_and_period - Вызвана функция get_path_and_period с параметрами: path_to_file=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_path_and_period_perio0\test.xlsx, period_date=['01.04.2024 00:00:00', '15.04.2024 23:59:59']
-2025-04-27 00:32:04 - src.utils - DEBUG - utils.py - get_path_and_period - Количество строк после фильтрации: 2
-2025-04-27 00:32:04 - src.utils - DEBUG - utils.py - get_path_and_period - Таблица успешно отфильтрована и отсортирована
-2025-04-27 00:32:06 - src.utils - DEBUG - utils.py - get_path_and_period - Вызвана функция get_path_and_period с параметрами: path_to_file=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_path_and_period_perio1\test.xlsx, period_date=['01.01.1900 00:00:00', '02.01.1900 00:00:00']
-2025-04-27 00:32:06 - src.utils - DEBUG - utils.py - get_path_and_period - Количество строк после фильтрации: 0
-2025-04-27 00:32:06 - src.utils - DEBUG - utils.py - get_path_and_period - Таблица успешно отфильтрована и отсортирована
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_path_and_period - Вызвана функция get_path_and_period с параметрами: path_to_file=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_path_and_period_perio2\test.xlsx, period_date=['30.04.2024 00:00:00', '30.04.2024 23:59:59']
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_path_and_period - Количество строк после фильтрации: 1
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_path_and_period - Таблица успешно отфильтрована и отсортирована
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_card_with_spend - Вызвана функция get_card_with_spend
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_card_with_spend - Отобраны необходимые столбцы из DataFrame
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 1 транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 2 транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_card_with_spend - Вызвана функция get_card_with_spend
-2025-04-27 00:32:07 - src.utils - WARNING - utils.py - get_card_with_spend - Отсутствуют обязательные столбцы: ['Номер карты', 'Сумма операции', 'Сумма операции с округлением']
-2025-04-27 00:32:07 - src.utils - ERROR - utils.py - get_card_with_spend - Ошибка обработки данных: Отсутствуют обязательные столбцы
+2025-04-28 16:24:16 - src.utils - DEBUG - utils.py - get_path_and_period - Вызвана функция get_path_and_period с параметрами: path_to_file=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_path_and_period_perio0\test.xlsx, period_date=['01.04.2024 00:00:00', '15.04.2024 23:59:59']
+2025-04-28 16:24:16 - src.utils - DEBUG - utils.py - get_path_and_period - Количество строк после фильтрации: 2
+2025-04-28 16:24:16 - src.utils - DEBUG - utils.py - get_path_and_period - Таблица успешно отфильтрована и отсортирована
+2025-04-28 16:24:17 - src.utils - DEBUG - utils.py - get_path_and_period - Вызвана функция get_path_and_period с параметрами: path_to_file=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_path_and_period_perio1\test.xlsx, period_date=['01.01.1900 00:00:00', '02.01.1900 00:00:00']
+2025-04-28 16:24:17 - src.utils - DEBUG - utils.py - get_path_and_period - Количество строк после фильтрации: 0
+2025-04-28 16:24:17 - src.utils - DEBUG - utils.py - get_path_and_period - Таблица успешно отфильтрована и отсортирована
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_path_and_period - Вызвана функция get_path_and_period с параметрами: path_to_file=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_path_and_period_perio2\test.xlsx, period_date=['30.04.2024 00:00:00', '30.04.2024 23:59:59']
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_path_and_period - Количество строк после фильтрации: 1
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_path_and_period - Таблица успешно отфильтрована и отсортирована
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_card_with_spend - Вызвана функция get_card_with_spend
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_card_with_spend - Отобраны необходимые столбцы из DataFrame
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 1 транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_card_with_spend - Обработано 2 транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_card_with_spend - Вызвана функция get_card_with_spend
+2025-04-28 16:24:18 - src.utils - WARNING - utils.py - get_card_with_spend - Отсутствуют обязательные столбцы: ['Номер карты', 'Сумма операции', 'Сумма операции с округлением']
+2025-04-28 16:24:18 - src.utils - ERROR - utils.py - get_card_with_spend - Ошибка обработки данных: Отсутствуют обязательные столбцы
 Traceback (most recent call last):
   File "C:\Users\User\banking_operations\src\utils.py", line 119, in get_card_with_spend
     raise ValueError("Отсутствуют обязательные столбцы")
 ValueError: Отсутствуют обязательные столбцы
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_card_with_spend - Вызвана функция get_card_with_spend
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_card_with_spend - Отобраны необходимые столбцы из DataFrame
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_card_with_spend - Вызвана функция get_card_with_spend
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_card_with_spend - Отобраны необходимые столбцы из DataFrame
-2025-04-27 00:32:07 - src.utils - ERROR - utils.py - get_card_with_spend - Ошибка обработки данных: '<' not supported between instances of 'str' and 'int'
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_card_with_spend - Вызвана функция get_card_with_spend
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_card_with_spend - Отобраны необходимые столбцы из DataFrame
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_card_with_spend - Вызвана функция get_card_with_spend
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_card_with_spend - Отобраны необходимые столбцы из DataFrame
+2025-04-28 16:24:18 - src.utils - ERROR - utils.py - get_card_with_spend - Ошибка обработки данных: '<' not supported between instances of 'str' and 'int'
 Traceback (most recent call last):
   File "C:\Users\User\banking_operations\src\utils.py", line 125, in get_card_with_spend
     if row["Сумма операции"] < 0:
        ^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: '<' not supported between instances of 'str' and 'int'
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=1
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Выбрано топ-1 транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 1 топ-транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=3
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Выбрано топ-3 транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 1 топ-транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 2 топ-транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 3 топ-транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=5
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Выбрано топ-5 транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 1 топ-транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 2 топ-транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 3 топ-транзакций
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=2
-2025-04-27 00:32:07 - src.utils - WARNING - utils.py - get_top_transactions - Отсутствуют обязательные столбцы: ['Дата платежа', 'Сумма операции', 'Категория', 'Описание']
-2025-04-27 00:32:07 - src.utils - ERROR - utils.py - get_top_transactions - Ошибка обработки транзакций: Отсутствуют обязательные столбцы
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=1
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Выбрано топ-1 транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 1 топ-транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=3
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Выбрано топ-3 транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 1 топ-транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 2 топ-транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 3 топ-транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=5
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Выбрано топ-5 транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 1 топ-транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 2 топ-транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Сформировано 3 топ-транзакций
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=2
+2025-04-28 16:24:18 - src.utils - WARNING - utils.py - get_top_transactions - Отсутствуют обязательные столбцы: ['Дата платежа', 'Сумма операции', 'Категория', 'Описание']
+2025-04-28 16:24:18 - src.utils - ERROR - utils.py - get_top_transactions - Ошибка обработки транзакций: Отсутствуют обязательные столбцы
 Traceback (most recent call last):
   File "C:\Users\User\banking_operations\src\utils.py", line 150, in get_top_transactions
     raise ValueError("Отсутствуют обязательные столбцы")
 ValueError: Отсутствуют обязательные столбцы
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=-5
-2025-04-27 00:32:07 - src.utils - ERROR - utils.py - get_top_transactions - Некорректный параметр get_top: -5
-2025-04-27 00:32:07 - src.utils - ERROR - utils.py - get_top_transactions - Ошибка обработки транзакций: Параметр get_top должен быть положительным целым числом
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=-5
+2025-04-28 16:24:18 - src.utils - ERROR - utils.py - get_top_transactions - Некорректный параметр get_top: -5
+2025-04-28 16:24:18 - src.utils - ERROR - utils.py - get_top_transactions - Ошибка обработки транзакций: Параметр get_top должен быть положительным целым числом
 Traceback (most recent call last):
   File "C:\Users\User\banking_operations\src\utils.py", line 155, in get_top_transactions
     raise ValueError("Параметр get_top должен быть положительным целым числом")
 ValueError: Параметр get_top должен быть положительным целым числом
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=0
-2025-04-27 00:32:07 - src.utils - DEBUG - utils.py - get_top_transactions - Выбрано топ-0 транзакций
-2025-04-27 00:32:08 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_currency_success0\test.json
-2025-04-27 00:32:08 - src.utils - DEBUG - utils.py - get_currency - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_currency_success0\test.json успешно прочитан
-2025-04-27 00:32:08 - src.utils - DEBUG - utils.py - get_currency - Обработка валюты: USD
-2025-04-27 00:32:08 - src.utils - DEBUG - utils.py - get_currency - Результат запроса API: {'query': {'from': 'USD'}, 'result': 75.1234}
-2025-04-27 00:32:08 - src.utils - DEBUG - utils.py - get_currency - Курс валюты USD: 75.12
-2025-04-27 00:32:08 - src.utils - DEBUG - utils.py - get_currency - Обработка валюты: EUR
-2025-04-27 00:32:08 - src.utils - DEBUG - utils.py - get_currency - Результат запроса API: {'query': {'from': 'USD'}, 'result': 75.1234}
-2025-04-27 00:32:08 - src.utils - DEBUG - utils.py - get_currency - Курс валюты USD: 75.12
-2025-04-27 00:32:08 - src.utils - DEBUG - utils.py - get_currency - Возвращаемые курсы валют: [{'currency': 'USD', 'rate': 75.12}, {'currency': 'USD', 'rate': 75.12}]
-2025-04-27 00:32:08 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=non_existent_file.json
-2025-04-27 00:32:08 - src.utils - ERROR - utils.py - get_currency - Файл non_existent_file.json не найден
-2025-04-27 00:32:09 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_currency_invalid_json0\invalid.json
-2025-04-27 00:32:09 - src.utils - ERROR - utils.py - get_currency - Ошибка декодирования JSON в файле C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_currency_invalid_json0\invalid.json
-2025-04-27 00:32:10 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_currency_missing_key0\test.json
-2025-04-27 00:32:10 - src.utils - DEBUG - utils.py - get_currency - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_currency_missing_key0\test.json успешно прочитан
-2025-04-27 00:32:10 - src.utils - WARNING - utils.py - get_currency - Ключ 'user_currencies' отсутствует в JSON
-2025-04-27 00:32:10 - src.utils - ERROR - utils.py - get_currency - Ошибка в структуре JSON: "Ключ 'user_currencies' отсутствует в JSON"
-2025-04-27 00:32:11 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_currency_network_erro0\test.json
-2025-04-27 00:32:11 - src.utils - DEBUG - utils.py - get_currency - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_currency_network_erro0\test.json успешно прочитан
-2025-04-27 00:32:11 - src.utils - DEBUG - utils.py - get_currency - Обработка валюты: USD
-2025-04-27 00:32:11 - src.utils - ERROR - utils.py - get_currency - Ошибка при обработке валюты USD: 
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Вызвана функция get_top_transactions с параметрами: sorted_df, get_top=0
+2025-04-28 16:24:18 - src.utils - DEBUG - utils.py - get_top_transactions - Выбрано топ-0 транзакций
+2025-04-28 16:24:19 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_currency_success0\test.json
+2025-04-28 16:24:19 - src.utils - DEBUG - utils.py - get_currency - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_currency_success0\test.json успешно прочитан
+2025-04-28 16:24:19 - src.utils - DEBUG - utils.py - get_currency - Обработка валюты: USD
+2025-04-28 16:24:19 - src.utils - DEBUG - utils.py - get_currency - Результат запроса API: {'query': {'from': 'USD'}, 'result': 75.1234}
+2025-04-28 16:24:19 - src.utils - DEBUG - utils.py - get_currency - Курс валюты USD: 75.12
+2025-04-28 16:24:19 - src.utils - DEBUG - utils.py - get_currency - Обработка валюты: EUR
+2025-04-28 16:24:19 - src.utils - DEBUG - utils.py - get_currency - Результат запроса API: {'query': {'from': 'USD'}, 'result': 75.1234}
+2025-04-28 16:24:19 - src.utils - DEBUG - utils.py - get_currency - Курс валюты USD: 75.12
+2025-04-28 16:24:19 - src.utils - DEBUG - utils.py - get_currency - Возвращаемые курсы валют: [{'currency': 'USD', 'rate': 75.12}, {'currency': 'USD', 'rate': 75.12}]
+2025-04-28 16:24:19 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=non_existent_file.json
+2025-04-28 16:24:19 - src.utils - ERROR - utils.py - get_currency - Файл non_existent_file.json не найден
+2025-04-28 16:24:20 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_currency_invalid_json0\invalid.json
+2025-04-28 16:24:20 - src.utils - ERROR - utils.py - get_currency - Ошибка декодирования JSON в файле C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_currency_invalid_json0\invalid.json
+2025-04-28 16:24:21 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_currency_missing_key0\test.json
+2025-04-28 16:24:21 - src.utils - DEBUG - utils.py - get_currency - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_currency_missing_key0\test.json успешно прочитан
+2025-04-28 16:24:21 - src.utils - WARNING - utils.py - get_currency - Ключ 'user_currencies' отсутствует в JSON
+2025-04-28 16:24:21 - src.utils - ERROR - utils.py - get_currency - Ошибка в структуре JSON: "Ключ 'user_currencies' отсутствует в JSON"
+2025-04-28 16:24:22 - src.utils - DEBUG - utils.py - get_currency - Вызвана функция get_currency с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_currency_network_erro0\test.json
+2025-04-28 16:24:22 - src.utils - DEBUG - utils.py - get_currency - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_currency_network_erro0\test.json успешно прочитан
+2025-04-28 16:24:22 - src.utils - DEBUG - utils.py - get_currency - Обработка валюты: USD
+2025-04-28 16:24:22 - src.utils - ERROR - utils.py - get_currency - Ошибка при обработке валюты USD: 
 Traceback (most recent call last):
   File "C:\Users\User\banking_operations\src\utils.py", line 206, in get_currency
     response = requests.get(URL_1, headers=headers, params=params, timeout=10)
@@ -282,22 +171,22 @@ Traceback (most recent call last):
   File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\unittest\mock.py", line 1193, in _execute_mock_call
     raise effect
 requests.exceptions.ConnectionError
-2025-04-27 00:32:11 - src.utils - DEBUG - utils.py - get_currency - Возвращаемые курсы валют: []
-2025-04-27 00:32:12 - src.utils - DEBUG - utils.py - get_stock - Вызвана функция get_stock с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_stock_success0\config.json
-2025-04-27 00:32:12 - src.utils - DEBUG - utils.py - get_stock - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_stock_success0\config.json успешно прочитан
-2025-04-27 00:32:12 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: AAPL
-2025-04-27 00:32:12 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '150.0'}
-2025-04-27 00:32:12 - src.utils - DEBUG - utils.py - get_stock - Цена акции AAPL: 150.0
-2025-04-27 00:32:12 - src.utils - DEBUG - utils.py - get_stock - Возвращаемые данные об акциях: [{'stock': 'AAPL', 'price': 150.0}]
-2025-04-27 00:32:13 - src.utils - DEBUG - utils.py - get_stock - Вызвана функция get_stock с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_stock_missing_price0\config.json
-2025-04-27 00:32:13 - src.utils - DEBUG - utils.py - get_stock - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-15\test_get_stock_missing_price0\config.json успешно прочитан
-2025-04-27 00:32:13 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: AAPL
-2025-04-27 00:32:13 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {}
-2025-04-27 00:32:13 - src.utils - WARNING - utils.py - get_stock - Ключ 'price' отсутствует в ответе API
-2025-04-27 00:32:13 - src.utils - ERROR - utils.py - get_stock - Неизвестная ошибка: Ключ 'price' отсутствует в ответе API
+2025-04-28 16:24:22 - src.utils - DEBUG - utils.py - get_currency - Возвращаемые курсы валют: []
+2025-04-28 16:24:23 - src.utils - DEBUG - utils.py - get_stock - Вызвана функция get_stock с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_stock_success0\config.json
+2025-04-28 16:24:23 - src.utils - DEBUG - utils.py - get_stock - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_stock_success0\config.json успешно прочитан
+2025-04-28 16:24:23 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: AAPL
+2025-04-28 16:24:23 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {'price': '150.0'}
+2025-04-28 16:24:23 - src.utils - DEBUG - utils.py - get_stock - Цена акции AAPL: 150.0
+2025-04-28 16:24:23 - src.utils - DEBUG - utils.py - get_stock - Возвращаемые данные об акциях: [{'stock': 'AAPL', 'price': 150.0}]
+2025-04-28 16:24:23 - src.utils - DEBUG - utils.py - get_stock - Вызвана функция get_stock с параметром: path_to_json=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_stock_missing_price0\config.json
+2025-04-28 16:24:23 - src.utils - DEBUG - utils.py - get_stock - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_get_stock_missing_price0\config.json успешно прочитан
+2025-04-28 16:24:23 - src.utils - DEBUG - utils.py - get_stock - Обработка акции: AAPL
+2025-04-28 16:24:23 - src.utils - DEBUG - utils.py - get_stock - Результат запроса API: {}
+2025-04-28 16:24:23 - src.utils - WARNING - utils.py - get_stock - Ключ 'price' отсутствует в ответе API
+2025-04-28 16:24:23 - src.utils - ERROR - utils.py - get_stock - Неизвестная ошибка: Ключ 'price' отсутствует в ответе API
 Traceback (most recent call last):
   File "C:\Users\User\banking_operations\src\utils.py", line 273, in get_stock
     raise ValueError("Ключ 'price' отсутствует в ответе API")
 ValueError: Ключ 'price' отсутствует в ответе API
-2025-04-27 00:32:13 - src.utils - DEBUG - utils.py - get_stock - Вызвана функция get_stock с параметром: path_to_json=non_existent.json
-2025-04-27 00:32:13 - src.utils - ERROR - utils.py - get_stock - Файл non_existent.json не найден
+2025-04-28 16:24:23 - src.utils - DEBUG - utils.py - get_stock - Вызвана функция get_stock с параметром: path_to_json=non_existent.json
+2025-04-28 16:24:23 - src.utils - ERROR - utils.py - get_stock - Файл non_existent.json не найден

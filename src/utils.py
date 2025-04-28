@@ -26,7 +26,7 @@ logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter(
     "%(asctime)s - %(name)s - %(levelname)s - %(filename)s - %(funcName)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S"
 )
-file_handler = logging.FileHandler(log_file_path, encoding="utf-8")
+file_handler = logging.FileHandler(log_file_path, mode="w", encoding="utf-8")
 file_handler.setLevel(logging.DEBUG)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
@@ -242,7 +242,7 @@ def get_currency(path_to_json: str) -> List[Dict]:
 
 
 def get_stock(path_to_json: str) -> List[Dict]:
-    """Функция принимает на вход path_to_json и возвращает курс валют"""
+    """Функция принимает на вход path_to_json и возвращает курс акций"""
     logger.debug(f"Вызвана функция get_stock с параметром: path_to_json={path_to_json}")
 
     stock_rates = []

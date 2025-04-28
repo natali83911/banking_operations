@@ -87,19 +87,6 @@ def test_get_path_and_period(mock_read, sample_excel_file, period, expected_date
         assert result_dates == expected_dates
 
 
-# @patch("pandas.read_excel")
-# def test_get_card_with_spend(mock_read_excel, sample_dataframe):
-#
-#     result = get_card_with_spend(sample_dataframe)
-#     # Проверки
-#     assert len(result) == 2
-#     assert result[0]["last_digits"] == "1234"
-#     assert result[0]["total_spent"] == -500
-#     assert result[0]["cashback"] == -5
-#
-#     assert result[1]["last_digits"] == "5678"
-#     assert result[1]["total_spent"] == -100
-#     assert result[1]["cashback"] == -1
 def test_get_card_with_spend_valid(sample_dataframe):
     result = get_card_with_spend(sample_dataframe)
     assert len(result) == 2

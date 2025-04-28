@@ -1,0 +1,51 @@
+2025-04-28 16:24:09 - src.services - DEBUG - services.py - analyze_cashback_categories - Вызвана функция analyze_cashback_categories с параметрами:file_path=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_analyze_cashback_categori0\test.xlsx, year=2024, month=4
+2025-04-28 16:24:09 - src.services - DEBUG - services.py - analyze_cashback_categories - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_analyze_cashback_categori0\test.xlsx успешно прочитан
+2025-04-28 16:24:09 - src.services - DEBUG - services.py - analyze_cashback_categories - Данные отфильтрованы по году=2024 и месяцу=4
+2025-04-28 16:24:09 - src.services - DEBUG - services.py - analyze_cashback_categories - Отфильтрованы операции с положительным кешбэком
+2025-04-28 16:24:09 - src.services - DEBUG - services.py - analyze_cashback_categories - Отфильтрованы операции с отрицательной суммой платежа
+2025-04-28 16:24:09 - src.services - DEBUG - services.py - analyze_cashback_categories - Суммы платежей сгруппированы по категориям
+2025-04-28 16:24:09 - src.services - DEBUG - services.py - analyze_cashback_categories - Рассчитан кешбэк для каждой категории
+2025-04-28 16:24:09 - src.services - DEBUG - services.py - analyze_cashback_categories - Результат преобразован в словарь: {'Продукты': 30, 'Транспорт': 5}
+2025-04-28 16:24:09 - src.services - DEBUG - services.py - analyze_cashback_categories - Результат преобразован в JSON
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Вызвана функция analyze_cashback_categories с параметрами:file_path=C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_analyze_cashback_categori1\test.xlsx, year=2024, month=5
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Файл C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-25\test_analyze_cashback_categori1\test.xlsx успешно прочитан
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Данные отфильтрованы по году=2024 и месяцу=5
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Отфильтрованы операции с положительным кешбэком
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Отфильтрованы операции с отрицательной суммой платежа
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Суммы платежей сгруппированы по категориям
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Рассчитан кешбэк для каждой категории
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Результат преобразован в словарь: {'Развлечения': 7}
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Результат преобразован в JSON
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Вызвана функция analyze_cashback_categories с параметрами:file_path=test.xlsx, year=2024, month=4
+2025-04-28 16:24:10 - src.services - ERROR - services.py - analyze_cashback_categories - Файл test.xlsx не найден.
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Вызвана функция analyze_cashback_categories с параметрами:file_path=test.xlsx, year=2024, month=4
+2025-04-28 16:24:10 - src.services - ERROR - services.py - analyze_cashback_categories - Файл test.xlsx пуст.
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Вызвана функция analyze_cashback_categories с параметрами:file_path=test.xlsx, year=2024, month=4
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Файл test.xlsx успешно прочитан
+2025-04-28 16:24:10 - src.services - ERROR - services.py - analyze_cashback_categories - Отсутствует столбец: 'Дата операции'
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Вызвана функция analyze_cashback_categories с параметрами:file_path=test.xlsx, year=2024, month=4
+2025-04-28 16:24:10 - src.services - DEBUG - services.py - analyze_cashback_categories - Файл test.xlsx успешно прочитан
+2025-04-28 16:24:10 - src.services - ERROR - services.py - analyze_cashback_categories - Произошла ошибка: time data "invalid_date" doesn't match format "%d.%m.%Y %H:%M:%S", at position 0. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+Traceback (most recent call last):
+  File "C:\Users\User\banking_operations\src\services.py", line 42, in analyze_cashback_categories
+    df["Дата операции"] = pd.to_datetime(df["Дата операции"], format="%d.%m.%Y %H:%M:%S")
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\banking_operations\.venv\Lib\site-packages\pandas\core\tools\datetimes.py", line 1067, in to_datetime
+    values = convert_listlike(arg._values, format)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\banking_operations\.venv\Lib\site-packages\pandas\core\tools\datetimes.py", line 433, in _convert_listlike_datetimes
+    return _array_strptime_with_fallback(arg, name, utc, format, exact, errors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\banking_operations\.venv\Lib\site-packages\pandas\core\tools\datetimes.py", line 467, in _array_strptime_with_fallback
+    result, tz_out = array_strptime(arg, fmt, exact=exact, errors=errors, utc=utc)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "strptime.pyx", line 501, in pandas._libs.tslibs.strptime.array_strptime
+  File "strptime.pyx", line 451, in pandas._libs.tslibs.strptime.array_strptime
+  File "strptime.pyx", line 583, in pandas._libs.tslibs.strptime._parse_with_format
+ValueError: time data "invalid_date" doesn't match format "%d.%m.%Y %H:%M:%S", at position 0. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.

@@ -1,11 +1,13 @@
-import pandas as pd
 import json
+from io import StringIO
+from typing import Dict
+from unittest.mock import patch
+
+import pandas as pd
 import pytest
 
-from typing import List, Dict
-from unittest.mock import patch
-from io import StringIO
 from src.services import analyze_cashback_categories
+
 
 @patch("pandas.read_excel")
 @pytest.mark.parametrize(
@@ -62,11 +64,9 @@ def test_exception_handling(mock_read_excel, scenario, expected_output):
     elif scenario == "missing_columns":
         mock_read_excel.return_value = pd.DataFrame({"Wrong_Column": [1, 2, 3]})
     elif scenario == "invalid_data":
-        mock_read_excel.return_value = pd.DataFrame({
-            "Дата операции": ["invalid_date"],
-            "Кэшбэк": [5],
-            "Сумма платежа": [-100]
-        })
+        mock_read_excel.return_value = pd.DataFrame(
+            {"Дата операции": ["invalid_date"], "Кэшбэк": [5], "Сумма платежа": [-100]}
+        )
 
     result = analyze_cashback_categories(test_file, year, month)
     assert json.loads(result) == expected_output

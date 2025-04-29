@@ -1,6 +1,7 @@
+from pathlib import Path
+
 import pandas as pd
 import pytest
-from pathlib import Path
 
 
 @pytest.fixture
@@ -42,8 +43,22 @@ def mock_excel_data() -> str:
 """
     return data
 
+
 @pytest.fixture
 def mock_file_path(tmp_path: pytest.TempPathFactory) -> str:
     """Фикстура для создания фиктивного пути к файлу"""
     file_path = str(Path(tmp_path) / "test.xlsx")
     return file_path
+
+
+@pytest.fixture
+def sample_transactions():
+    """Фикстура с тестовыми транзакциями"""
+    data = {
+        "Дата операции": ["2025-02-01 10:00:00", "2025-03-15 12:00:00", "2025-04-20 15:00:00", "2025-01-10 10:00:00"],
+        "Категория": ["Продукты", "Продукты", "Транспорт", "Продукты"],
+        "Сумма платежа": [-1000, -500, -300, -2000],
+    }
+    df = pd.DataFrame(data)
+    df["Дата операции"] = pd.to_datetime(df["Дата операции"])
+    return df

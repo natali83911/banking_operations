@@ -6,15 +6,35 @@
 
 ## Структура проекта
 ~~~
-project_root/
-│
-├── src/
-│    └── reports.py          # Основной модуль с функциями анализа
-├── results/                 # Папка для сохранения файлов с результатами
-├── tests/
-│    └── test_reports.py     # Тесты для функций анализа
-├── requirements.txt         # Список зависимостей
-└── README.md                # Документация (вы читаете её!)
+.
+├── src
+│ ├── __init__.py
+│ ├── utils.py
+│ ├── main.py
+│ ├── views.py
+│ ├── reports.py
+│ └── services.py
+├── data
+│ ├── operations.xlsx
+├── results
+│ ├── result_reports.txt
+├── tests
+│ ├── __init__.py
+│ ├── test_utils.py
+│ ├── test_views.py
+│ ├── test_reports.py
+│ └── test_services.py
+├── user_settings.json
+├── .venv/
+├── .env
+├── .env_template
+├── .git/
+├── .idea/
+├── .flake8
+├── .gitignore
+├── pyproject.toml
+├── poetry.lock
+└── README.md
 ~~~
 ## Основные функции
 1. main_info(date_time: str) -> str
@@ -63,10 +83,7 @@ project_root/
 
 ## Использование функций в коде
 ~~~
-from config import PATH_TO_EXCEL
-from src.reports import expenses_by_category, get_data_from_file
-from src.services import analyze_cashback_categories
-from src.views import main_info
+from src.reports import main_info, analyze_cashback_categories, get_data_from_file, expenses_by_category
 
 # Получить общий отчет
 print(main_info("2021-12-15 15:30:00"))
